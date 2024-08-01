@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sreehari's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c03ab062e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- ------------------Swiper Css----------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+     <!-- =====================================Style Switcher===================================== -->
+     <input type="radio" name="color" id="color-1">
+     <input type="radio" name="color" id="color-2">
+     <input type="radio" name="color" id="color-3">
+     <input type="radio" name="color" id="color-4">
+     <input type="radio" name="color" id="color-5">
+     <input type="radio" name="color" id="color-6">
+     <input type="radio" name="color" id="color-7">
+     <input type="radio" name="color" id="color-8">
+     <input type="radio" name="color" id="color-9">
+     <input type="radio" name="color" id="color-10">
+     <input type="checkbox" name="" id="toggler">
+     <input type="checkbox" name="" id="day-night">
+ 
+     <div class="style_switcher">
+       <label for="toggler" class="style_switcher_toggler">
+         <i class="fa-solid fa-gear fa-spin"></i>
+       </label>
+       <label for="day-night" class="style_switcher_theme">
+         <i class="fa-solid fa-sun"></i>
+         <i class="fa-solid fa-moon"></i>
+       </label>
+ 
+       <h3 class="style_switcher_title">Theme Colors</h3>
+       <div class="style_switcher_colors">
+         <label for="color-1" class="color-1 color"></label>
+         <label for="color-2" class="color-2 color"></label>
+         <label for="color-3" class="color-3 color"></label>
+         <label for="color-4" class="color-4 color"></label>
+         <label for="color-5" class="color-5 color"></label>
+         <label for="color-6" class="color-6 color"></label>
+         <label for="color-7" class="color-7 color"></label>
+         <label for="color-8" class="color-8 color"></label>
+         <label for="color-9" class="color-9 color"></label>
+         <label for="color-10" class="color-10 color"></label>
+ 
+       </div>
+     </div>
+    <!-- ===============================Header and Nav bar section=============================== -->
+    <header class="header">
+      <nav class="nav">
+        <div class="navbar">
+          <div class="navbar_logo">
+            <div class="nav_bar_heading">
+              <h3>Sreehari P</h3>
+            </div>
+            <div class="nav_menu_btn" id="menu_btn">
+              <i class="ri-menu-line"></i>
+            </div>
+          </div>
+          <ul class="nav_links" id="nav-links">
+            <li class="nav__items">
+              <a href="#home" class="nav__links active__link">Home</a>
+            </li>
+
+            <li class="nav__items">
+              <a href="#about" class="nav__links">About</a>
+            </li>
+
+            <li class="nav__items">
+              <a href="#services" class="nav__links">Services</a>
+            </li>
+
+            <li class="nav__items">
+              <a href="#skills" class="nav__links">Skills</a>
+            </li>
+
+            <li class="nav__items">
+              <a href="#portfolio" class="nav__links">Projects</a>
+            </li>
+
+            <li class="nav__items">
+              <a href="#contact" class="nav__links">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- =============================Home Section================================= -->
+      <section class="home" id="home">
+        <div class="home_container container grid">
+          <div class="home_details">
+            <span class="home_small home_ani">Hi, There</span>
+            <h1 class="home_name home_ani">
+              <span>I'm</span> Sreehari P <br />
+              <span>Python Developer</span>
+            </h1>
+            <!-- <p class="home_description">Iam a passionate web developer dedicated to creating innovative and user-friendly web solutions. I believe in the power of technology to transform businesses and improve people's lives, and I'm committed to delivering high-quality, efficient, and scalable web applications that exceed client expectations</p> -->
+            <p class="home_description home_ani">
+             
+            </p>
+            <div class="home_links">
+              <!-- <div>
+                <a href="#home" >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </div> -->
+              <div class="home_ani1">
+                <a href="https://x.com/sreehari0518" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+              <div class="home_ani1">
+                <a
+                  href="https://www.instagram.com/_sreee.hariii_"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+              <div class="home_ani1">
+                <a
+                  href="https://www.linkedin.com/in/sreehari-p-826892274?"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+              <div class="home_ani1">
+                <a href="https://github.com/sreehari456" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="home_btns">
+              <a href="#contact" class="btn">Contact Me</a>
+            </div>
+          </div>
+          <div class="home_img">
+            <img
+              src="assets/images/profile.png"
+              class="home_main_img home_ani_img"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- =============================About Section======================= -->
+      <section class="about section" id="about">
+        <div class="about_container container grid">
+          <div class="about_img">
+            <img
+              src="assets/images/3426526.jpg"
+              alt=""
+              class="about_img_main"
+            />
+            <img
+              src="assets/images/3426526.jpg"
+              alt=""
+              class="about_img_main"
+            />
+            <img
+              src="assets/images/3426526.jpg"
+              alt=""
+              class="about_img_main"
+            />
+            <img
+              src="assets/images/3426526.jpg"
+              alt=""
+              class="about_img_main"
+            />
+          </div>
+          <div class="about_content">
+            <p class="about_who">Who am I?</p>
+            <h1 class="about_head">
+              I'm Sreehari P, a passionate Python developer.
+            </h1>
+            <p class="about_detail">
+              As an entry-level Python developer with a keen interest in web development, I am passionate about leveraging my programming skills to create innovative solutions across various domains. With a strong foundation in software development, I enjoy crafting efficient and scalable applications that solve real-world problems. My enthusiasm for web development drives me to build dynamic and user-friendly websites, while my interest in embedded systems fuels my curiosity to work with hardware and integrate software with physical devices. Eager to continue learning and growing, I am excited to contribute to projects that bridge the gap between software and hardware.
+            </p>
+            <ul class="about_data">
+              <li class="about_item">
+                <h3 class="data_title">Name:</h3>
+                <span class="data_description">Sreehari P</span>
+              </li>
+              <li class="about_item">
+                <h3 class="data_title">Age:</h3>
+                <span class="data_description">24 Years</span>
+              </li>
+              <li class="about_item">
+                <h3 class="data_title">From:</h3>
+                <span class="data_description">Kerala, India</span>
+              </li>
+              <li class="about_item">
+                <h3 class="data_title">Email:</h3>
+                <span class="data_description data_description_link"
+                  >sreeharihari36@gmail.com</span
+                >
+              </li>
+            </ul>
+            <div class="about_btns">
+              <div class="about_social_btns">
+                <a
+                  href="https://www.instagram.com/_sreee.hariii_"
+                  class="about_social_btn"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a
+                  href="https://x.com/sreehari0518"
+                  target="_blank"
+                  class="about_social_btn"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/sreehari-p-826892274?"
+                  class="about_social_btn"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://github.com/sreehari456"
+                  target="_blank"
+                  class="about_social_btn"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================Services Section================================== -->
+      <section class="services section" id="services">
+        <p class="service_head">SERVICES</p>
+        <h1 class="service_main_header">What Can I do for you</h1>
+        <div class="wrapper container">
+          <ul class="carousel">
+            <li class="card">
+              <div class="img">
+                <img
+                  src="assets/images/coding.png"
+                  alt="img"
+                  draggable="false"
+                />
+              </div>
+              <h2>Web Development</h2>
+              
+            </li>
+            <li class="card">
+              <div class="img">
+                <img
+                  src="assets/images/hierarchy.png"
+                  alt="img"
+                  draggable="false"
+                />
+              </div>
+              <h2>Software Development</h2>
+              <span>
+                
+              </span>
+            </li>
+            <li class="card">
+              <div class="img">
+                <img
+                  src="assets/images/ui-design.png"
+                  alt="img"
+                  draggable="false"
+                />
+              </div>
+              <h2>Wordpress Development</h2>
+          </ul>
+         
+        </div>
+      </section>
+
+      <!-- ===================================Skills section====================== -->
+      <section class="skills container" id="skills">
+        <div class="skill_sectionc section">
+          <p class="skill_subhead">My Talent</p>
+          <h1 class="skill_head section_title">Skills</h1>
+          <div class="skills_boxs">
+            <div class="skill_box">
+              <i class="fa-brands fa-html5 html"></i>
+              <p class="skill_box_name html" style="color: whitesmoke;">HTML</p>
+            </div>
+            <div class="skill_box">
+              <i class="fa-brands fa-css3-alt css"></i>
+              <p class="skill_box_name Css" style="color: whitesmoke;">CSS</p>
+            </div>
+            <div class="skill_box">
+              <i class="fa-brands fa-bootstrap" style="color: #9400d3;"></i>
+              <p class="skill_box_name Bootstrap" style="color: whitesmoke;">Bootstrap</p>
+            </div>
+            <div class="skill_box">
+              <i class="fa-brands fa-js js" ></i>
+              <p class="skill_box_name js" style="color: whitesmoke;">JavaScript</p>
+            </div>
+            <div class="skill_box">
+              <i class="fa-brands fa-react" style="color: #87ceeb;"></i>
+              <p class="skill_box_name " style="color: whitesmoke;">React Js</p>
+            </div>
+            <div class="skill_box">
+              <i class="fa-brands fa-angular" style="color: red;"></i>
+              <p class="skill_box_name c" style="color: whitesmoke;">Angular Js</p>
+            </div>
+            <div class="skill_box">
+              <i class="fa-brands fa-python" style="color: lightskyblue;"></i>
+              <p class="skill_box_name py" style="color: whitesmoke;">Python</p>
+            </div>
+            <div class="skill_box">
+              <i class="fa-brands fa-git" style="color: orange;"></i>
+              <p class="skill_box_name" style="color: whitesmoke;">GIT</p>
+            </div>
+            <div class="skill_box">
+              <i class="fa-brands fa-wordpress" style="color: #21759b;"></i>
+              <p class="skill_box_name c" style="color: whitesmoke;">Wordpress</p>
+            </div>
+            <div class="skill_box">
+              <i class="fa-brands fa-aws" style="color: orange;"></i>
+              <p class="skill_box_name " style="color: whitesmoke;">AWS</p>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+       <!-- =======================================Projects Section================================= -->
+       <section class="portfolio container" id="portfolio">
+        <div class="projects_container section">
+          <h1 class="projects_heading">My
+             <span>Latest Projects</span></h1>
+          <div class="projects_boxs grid">
+            <div class="recent_projects">
+              <img src="assets/images/weather-img.png" alt="" />
+              <div class="projects_details">
+                <h4>Weather App</h4>
+                <p>
+                  A weather report website using an API provides real-time
+                  weather updates.
+                </p>
+                <a
+                  href="https://github.com/Sreehari456/Weather-app"
+                  target="_blank"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="recent_projects">
+              <img src="assets/images/QR Code img.png" alt="" />
+              <div class="projects_details">
+                <h4>QR Code Generator</h4>
+                <p>
+                  Generate QR codes swiftly for seamless information sharing.
+                </p>
+                <a
+                  href="https://github.com/Sreehari456/QR-code-generator"
+                  target="_blank"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================Testimonials section============================== -->
+      <section class="testimonials section">
+        <div class="testimonials_header container">
+          <h1>Work Experience</h1>
+        </div>
+        <div class="testimonials_swipper container">
+          <div class="testimonials_box mySwiper">
+            <div class="testimonials_content swiper-wrapper">
+              <div class="testimonials_slide swiper-slide">
+                <h3>Embedded Software Engineer</h3>
+                <p>
+                 <h4>Sascan Meditech Pvt Ltd, Trivandrum</h4>
+                 <h4>Feb 2024 - Present</h4>
+                </p>
+              </div>
+              <div class="testimonials_slide swiper-slide">
+                <h3>Freelance Web Developer</h3>
+                <p>
+                 <h4>Sep 2023 - Jan 2024</h4> 
+                </p>
+              </div>
+              <div class="testimonials_slide swiper-slide">
+                <h3>Trainee Engineer</h3>
+                <p>
+                 <h4>SFO Technologies,kakkanad, Kochi</h4>
+                 <h4>Sep 2020 - Apr 2021</h4>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      
+      <!-- ===========================================Contact Section=================================== -->
+      <section class="contact section" id="contact">
+        <div class="section_contact container">
+          <p class="contact_subhead">Let's Talk Together</p>
+          <h1 class="contact_title">Contact Me</h1>
+          <div class="contact_content">
+            <div class="contact_details">
+              <div class="contact_info_boxes">
+                <div class="contact_icons">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="contact_icons_details">
+                  <h3>Call Us</h3>
+                  <p>+91 9562282966</p>
+                </div>
+              </div>
+              <div class="contact_info_boxes">
+                <div class="contact_icons">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact_icons_details">
+                  <h3>Email Us</h3>
+                  <p>sreeharihari36@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact_info_boxes">
+
+                <div class="contact_icons">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="contact_icons_details">
+                  <h3>Address</h3>
+                  <p>Trivandrum, Kerala, India.</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact_form">
+              <form action="https://formsubmit.co/sreeharihari36@gmail.com" method="POST">
+                <div class="form_group">
+                  <div class="form_input">
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      class="input_control"
+                    />
+                  </div>
+                  <div class="form_input">
+                    <input
+                      type="text"
+                      placeholder="Email"
+                      class="input_control"
+                    />
+                  </div>
+                </div>
+                <div class="form_input">
+                  <input
+                    type="text"
+                    placeholder="subject"
+                    class="input_control"
+                  />
+                </div>
+                <div class="form_input">
+                  <textarea
+                    name=""
+                    id=""
+                    placeholder="Message"
+                    cols="30"
+                    rows="4"
+                    class="input_control textarea"
+                  ></textarea>
+                </div>
+                <button class="btn contact_btn">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <!-- =========================================footer section================================== -->
+      <footer class="footer" id="footer">
+        <div class="footer_container container">
+          <div class="footer_description">
+            <p class="footer_copyright">
+              &copy; 2024 Sreehari P. All Rights are Reserved
+            </div>
+          </p>
+        
+         <div class="footer_social_btns">
+          <a
+            href="https://www.instagram.com/_sreee.hariii_"
+            class="footer_social_btn"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://x.com/sreehari0518"
+            target="_blank"
+            class="footer_social_btn"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sreehari-p-826892274?"
+            class="footer_social_btn"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/sreehari456"
+            target="_blank"
+            class="footer_social_btn"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
